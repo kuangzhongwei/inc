@@ -1,0 +1,8 @@
+G:\Job Info\YTC\YTC\YTDAL\bin\Debug\YTDAL.dll
+G:\Job Info\YTC\YTC\YTDAL\bin\Debug\YTDAL.pdb
+G:\Job Info\YTC\YTC\YTDAL\bin\Debug\YTModel.dll
+G:\Job Info\YTC\YTC\YTDAL\bin\Debug\YTModel.pdb
+G:\Job Info\YTC\YTC\YTDAL\obj\Debug\ResolveAssemblyReference.cache
+G:\Job Info\YTC\YTC\YTDAL\obj\Debug\YTDAL.dll
+G:\Job Info\YTC\YTC\YTDAL\obj\Debug\YTDAL.pdb
+G:\Job Info\YTC\YTC\YTDAL\bin\Debug\RCH.library.dll

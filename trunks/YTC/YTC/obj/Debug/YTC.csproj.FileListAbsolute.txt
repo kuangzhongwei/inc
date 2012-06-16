@@ -1,0 +1,12 @@
+G:\Job Info\YTC\YTC\YTC\bin\YTC.dll
+G:\Job Info\YTC\YTC\YTC\bin\YTC.pdb
+G:\Job Info\YTC\YTC\YTC\bin\YTBLL.dll
+G:\Job Info\YTC\YTC\YTC\bin\YTIO.dll
+G:\Job Info\YTC\YTC\YTC\bin\YTModel.dll
+G:\Job Info\YTC\YTC\YTC\bin\YTBLL.pdb
+G:\Job Info\YTC\YTC\YTC\bin\YTIO.pdb
+G:\Job Info\YTC\YTC\YTC\bin\YTModel.pdb
+G:\Job Info\YTC\YTC\YTC\obj\Debug\ResolveAssemblyReference.cache
+G:\Job Info\YTC\YTC\YTC\obj\Debug\YTC.dll
+G:\Job Info\YTC\YTC\YTC\obj\Debug\YTC.pdb
+G:\Job Info\YTC\YTC\YTC\bin\RCH.library.dll

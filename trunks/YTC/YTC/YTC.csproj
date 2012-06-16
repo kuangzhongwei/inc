@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67415576-0814-4539-8968-57093ACE5D9A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>YTC</RootNamespace>
+    <AssemblyName>YTC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="RCH.library, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\资料\RCH.library的使用方法总结\RCH.library2.3\RCH.library.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="back\admin\index.aspx" />
+    <Content Include="back\admin\main.aspx" />
+    <Content Include="back\admin\menu.aspx" />
+    <Content Include="back\admin\skin\css\base.css" />
+    <Content Include="back\admin\skin\css\main.css" />
+    <Content Include="back\admin\skin\css\menu.css" />
+    <Content Include="back\admin\skin\images\frame\addnews.gif" />
+    <Content Include="back\admin\skin\images\frame\arr3.gif" />
+    <Content Include="back\admin\skin\images\frame\arr4.gif" />
+    <Content Include="back\admin\skin\images\frame\arrfc.gif" />
+    <Content Include="back\admin\skin\images\frame\arrl.gif" />
+    <Content Include="back\admin\skin\images\frame\arrr.gif" />
+    <Content Include="back\admin\skin\images\frame\book.gif" />
+    <Content Include="back\admin\skin\images\frame\book1.gif" />
+    <Content Include="back\admin\skin\images\frame\bottombg.gif" />
+    <Content Include="back\admin\skin\images\frame\file_dir.gif" />
+    <Content Include="back\admin\skin\images\frame\gtk-del.png" />
+    <Content Include="back\admin\skin\images\frame\gtk-sadd.png" />
+    <Content Include="back\admin\skin\images\frame\ico_spider.gif" />
+    <Content Include="back\admin\skin\images\frame\logo.gif" />
+    <Content Include="back\admin\skin\images\frame\manage1.gif" />
+    <Content Include="back\admin\skin\images\frame\menu-ex.png" />
+    <Content Include="back\admin\skin\images\frame\menuarrow.gif" />
+    <Content Include="back\admin\skin\images\frame\menubg.gif" />
+    <Content Include="back\admin\skin\images\frame\menumember.gif" />
+    <Content Include="back\admin\skin\images\frame\menusearch.gif" />
+    <Content Include="back\admin\skin\images\frame\menu_bg.gif" />
+    <Content Include="back\admin\skin\images\frame\menu_bottom.gif" />
+    <Content Include="back\admin\skin\images\frame\menu_top.gif" />
+    <Content Include="back\admin\skin\images\frame\part-index.gif" />
+    <Content Include="back\admin\skin\images\frame\qc.gif" />
+    <Content Include="back\admin\skin\images\frame\search.gif" />
+    <Content Include="back\admin\skin\images\frame\sp_bg.gif" />
+    <Content Include="back\admin\skin\images\frame\topbg.gif" />
+    <Content Include="back\admin\skin\images\frame\topitembg.gif" />
+    <Content Include="back\admin\skin\images\frame\wbg.gif" />
+    <Content Include="back\admin\skin\js\frame\menu.js" />
+    <Content Include="back\admin\top.aspx" />
+    <Content Include="back\archives.html" />
+    <Content Include="back\login.aspx" />
+    <Content Include="back\skin\css\base.css" />
+    <Content Include="back\skin\css\main.css" />
+    <Content Include="back\skin\css\menu.css" />
+    <Content Include="back\skin\images\frame\addnews.gif" />
+    <Content Include="back\skin\images\frame\arr3.gif" />
+    <Content Include="back\skin\images\frame\arr4.gif" />
+    <Content Include="back\skin\images\frame\arrfc.gif" />
+    <Content Include="back\skin\images\frame\arrl.gif" />
+    <Content Include="back\skin\images\frame\arrr.gif" />
+    <Content Include="back\skin\images\frame\book.gif" />
+    <Content Include="back\skin\images\frame\book1.gif" />
+    <Content Include="back\skin\images\frame\bottombg.gif" />
+    <Content Include="back\skin\images\frame\file_dir.gif" />
+    <Content Include="back\skin\images\frame\gtk-del.png" />
+    <Content Include="back\skin\images\frame\gtk-sadd.png" />
+    <Content Include="back\skin\images\frame\ico_spider.gif" />
+    <Content Include="back\skin\images\frame\logo.gif" />
+    <Content Include="back\skin\images\frame\manage1.gif" />
+    <Content Include="back\skin\images\frame\menu-ex.png" />
+    <Content Include="back\skin\images\frame\menuarrow.gif" />
+    <Content Include="back\skin\images\frame\menubg.gif" />
+    <Content Include="back\skin\images\frame\menumember.gif" />
+    <Content Include="back\skin\images\frame\menusearch.gif" />
+    <Content Include="back\skin\images\frame\menu_bg.gif" />
+    <Content Include="back\skin\images\frame\menu_bottom.gif" />
+    <Content Include="back\skin\images\frame\menu_top.gif" />
+    <Content Include="back\skin\images\frame\part-index.gif" />
+    <Content Include="back\skin\images\frame\qc.gif" />
+    <Content Include="back\skin\images\frame\search.gif" />
+    <Content Include="back\skin\images\frame\sp_bg.gif" />
+    <Content Include="back\skin\images\frame\topbg.gif" />
+    <Content Include="back\skin\images\frame\topitembg.gif" />
+    <Content Include="back\skin\images\frame\wbg.gif" />
+    <Content Include="back\skin\js\frame\menu.js" />
+    <Content Include="back\images\admin_login.png" />
+    <Content Include="back\images\admin_login_bg.gif" />
+    <Content Include="back\images\admin_login_button.gif" />
+    <Content Include="back\images\admin_login_button.png" />
+    <Content Include="public\error\404_icon.jpg" />
+    <Content Include="public\error\FileNotFound.htm" />
+    <Content Include="public\error\GenericErrorPage.htm" />
+    <Content Include="public\error\NoAccess.htm" />
+    <Content Include="public\error\notfound.jpg" />
+    <Content Include="Global.asax" />
+    <Content Include="public\css\error.css" />
+    <Content Include="public\Scripts\jquery-1.6.js" />
+    <Content Include="public\Scripts\jquery-1.6.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="back\admin\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="back\admin\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="back\admin\main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="back\admin\main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="back\admin\menu.aspx.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="back\admin\menu.aspx.designer.cs">
+      <DependentUpon>menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="back\admin\top.aspx.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="back\admin\top.aspx.designer.cs">
+      <DependentUpon>top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="back\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="back\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YTBLL\YTBLL.csproj">
+      <Project>{BE5D3DDF-307C-4E47-A18C-1F78DF734984}</Project>
+      <Name>YTBLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YTIO\YTIO.csproj">
+      <Project>{C02A089E-DE42-43CB-BE01-13AA22D6A3CB}</Project>
+      <Name>YTIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YTModel\YTModel.csproj">
+      <Project>{0273A768-1126-47DA-80CA-951B8A35CC39}</Project>
+      <Name>YTModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="back\admin\skin\images\frame\Thumbs.db" />
+    <Content Include="back\admin\Web.config" />
+    <None Include="back\skin\images\frame\Thumbs.db" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2279</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
